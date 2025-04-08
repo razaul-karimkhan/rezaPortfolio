@@ -9,13 +9,34 @@ const Footer = () => {
         <img className="w-32" src={rezalogo} alt="rezalogo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+          <a
+                href="https://www.facebook.com/profile.php?id=100005522324826"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#4267B2", fontSize: "2rem" }}
+              >
+                <FaFacebookF />
+              </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+          <a
+                href="https://twitter.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#1DA1F2", fontSize: "2rem" }}
+              >
+                <FaTwitter />
+              </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+          <a
+                href="https://www.linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#0077B5", fontSize: "2rem" }}
+              >
+                <FaLinkedinIn />
+              </a>
           </span>
         </div>
       </div>
